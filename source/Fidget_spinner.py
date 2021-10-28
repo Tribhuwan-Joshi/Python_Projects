@@ -30,6 +30,7 @@ def flick():
 setup(420, 420, 370, 0)
 hideturtle()
 tracer(False)
+title("Fidget_Spinner [keep tapping spacebar]")
 width(20)
 onkey(flick, 'space')
 listen()
