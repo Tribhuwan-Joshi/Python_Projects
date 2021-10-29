@@ -1,3 +1,6 @@
+# Fidget spinner using turtle 
+
+# keep pressing spacebar to spin the spinner.
 
 from turtle import *
 state = {'turn': 0}
@@ -32,7 +35,7 @@ hideturtle()
 tracer(False)
 title("Fidget_Spinner [keep tapping spacebar]")
 width(20)
-onkey(flick, 'space')
+onkey(flick, 'space') # reading the key Input
 listen()
 animate()
 done()
